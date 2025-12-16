@@ -818,11 +818,42 @@
     margin-bottom 30px
     box-shadow 0 8px 32px rgba(0,0,0,0.06)
     border 1px solid rgba(211,47,47,0.1)
+    display flex
+    justify-content space-between
+    align-items center
 
     .g-welcome-section
       display flex
       align-items center
       gap 20px
+      flex 1
+
+    .g-dashboard-language-switcher
+      .g-language-switcher
+        background transparent
+        border 2px solid var(--medical-secondary)
+        color var(--medical-secondary)
+        padding 8px 16px
+        border-radius 8px
+        font-size 14px
+        font-weight 600
+        cursor pointer
+        transition all 0.3s ease
+        display flex
+        align-items center
+        gap 8px
+
+        &:hover
+          background var(--medical-secondary)
+          color #fff
+          transform translateY(-2px)
+          box-shadow 0 4px 12px rgba(25,118,210,0.3)
+
+        .g-current-lang
+          margin-right 4px
+
+        i
+          font-size 12px
 
       .g-welcome-icon
         font-size 48px
@@ -909,6 +940,72 @@
             &:hover
               color #b71c1c
               text-decoration underline
+
+    .g-dashboard-contacts
+      background #fff
+      border-radius 16px
+      padding 40px
+      margin-bottom 30px
+      box-shadow 0 8px 32px rgba(0,0,0,0.06)
+      border 1px solid rgba(211,47,47,0.1)
+
+      .g-contacts-section
+        .g-contacts-title
+          font-size 28px
+          font-weight 700
+          color var(--medical-dark)
+          margin 0 0 20px 0
+          text-align center
+
+        .g-contacts-content
+          .g-contacts-note
+            font-size 16px
+            color #555
+            line-height 1.6
+            margin 0 0 25px 0
+            text-align center
+            font-style italic
+            padding 15px 20px
+            background #fff3cd
+            border-left 4px solid var(--medical-secondary)
+            border-radius 8px
+
+          .g-contacts-list
+            display grid
+            grid-template-columns repeat(auto-fit, minmax(300px, 1fr))
+            gap 25px
+
+            .g-contact-person
+              padding 20px
+              background #f8f9fa
+              border-radius 12px
+              border 1px solid rgba(211,47,47,0.1)
+              text-align center
+
+              .g-contact-name
+                font-size 18px
+                font-weight 700
+                color var(--medical-dark)
+                margin-bottom 8px
+
+              .g-contact-role
+                font-size 14px
+                color var(--medical-secondary)
+                margin-bottom 10px
+                font-weight 500
+
+              .g-contact-email
+                font-size 14px
+                color var(--medical-primary)
+
+                a
+                  color var(--medical-primary)
+                  text-decoration none
+                  transition all 0.3s ease
+
+                  &:hover
+                    color #b71c1c
+                    text-decoration underline
 
     .g-dashboard-stats
       background #fff

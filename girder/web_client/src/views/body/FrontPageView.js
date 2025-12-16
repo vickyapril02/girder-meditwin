@@ -270,7 +270,7 @@ var FrontPageView = View.extend({
                         </div>
                         <div class="g-section-content">
                             <div class="g-company-info">
-                                <p>${translate('We manage the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.')}</p>
+                                <p>${translate('We the Multimodal data science team manages the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.')}</p>
                                 
                                 <div class="g-team-section">
                                     <h3 class="g-team-title">${translate('Our Team')}</h3>
@@ -330,9 +330,6 @@ var FrontPageView = View.extend({
                                         <strong>${translate('Version:')}</strong> V1.0 du 16/12/2025
                                     </div>
                                 </div>
-                                <div class="g-contact-note">
-                                    <p>${translate("Pour toute question sur l'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l'étude au CHU de Bordeaux")}</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -359,6 +356,12 @@ var FrontPageView = View.extend({
                             <p class="g-welcome-subtitle">${translate('Your medical data management platform')}</p>
                             <p class="g-user-greeting">${translate('Hello')}, <strong>${currentUser.get('firstName') || currentUser.get('login')}</strong>!</p>
                         </div>
+                    </div>
+                    <div class="g-dashboard-language-switcher">
+                        <button class="g-language-switcher">
+                            <span class="g-current-lang">${getCurrentLanguage() === 'french' ? 'English' : 'Français'}</span>
+                            <i class="icon-down-dir"></i>
+                        </button>
                     </div>
                 </div>
                 
@@ -397,6 +400,27 @@ var FrontPageView = View.extend({
                                 <h3 class="g-card-title">${translate('Account Settings')}</h3>
                                 <p class="g-card-description">${translate('Manage your account preferences and security settings')}</p>
                                 <a href="#useraccount/${currentUser.id}/info" class="g-card-link">${translate('Account Settings')} →</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="g-dashboard-contacts">
+                        <div class="g-contacts-section">
+                            <h3 class="g-contacts-title">${translate('Contacts')}</h3>
+                            <div class="g-contacts-content">
+                                <p class="g-contacts-note">${translate("Pour toute question sur l'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l'étude au CHU de Bordeaux")}</p>
+                                <div class="g-contacts-list">
+                                    <div class="g-contact-person">
+                                        <div class="g-contact-name">${translate('Valérie BOILET')}</div>
+                                        <div class="g-contact-role">${translate('Cheffe de projet')}</div>
+                                        <div class="g-contact-email"><a href="mailto:valerie.boilet@chu-bordeaux.fr">valerie.boilet@chu-bordeaux.fr</a></div>
+                                    </div>
+                                    <div class="g-contact-person">
+                                        <div class="g-contact-name">${translate('Fabrice BLARD')}</div>
+                                        <div class="g-contact-role">${translate('ARC coordonnateur')}</div>
+                                        <div class="g-contact-email"><a href="mailto:fabrice.blard@chu-bordeaux.fr">fabrice.blard@chu-bordeaux.fr</a></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

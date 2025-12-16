@@ -191,6 +191,12 @@ const englishTranslations = {
             'About Us': 'About Us',
             'Meditwin is developed by a team of medical professionals, data scientists, and software engineers dedicated to advancing healthcare through technology. We are committed to providing innovative solutions that improve patient outcomes and accelerate medical research.': 'Meditwin is developed by a team of medical professionals, data scientists, and software engineers dedicated to advancing healthcare through technology. We are committed to providing innovative solutions that improve patient outcomes and accelerate medical research.',
             'We manage the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.': 'We manage the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.',
+            'We the Multimodal data science team manages the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.': 'We the Multimodal data science team manages the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.',
+            'Contacts': 'Contacts',
+            'Valérie BOILET': 'Valérie BOILET',
+            'Cheffe de projet': 'Project Manager',
+            'Fabrice BLARD': 'Fabrice BLARD',
+            'ARC coordonnateur': 'ARC Coordinator',
             'Our Team': 'Our Team',
             'Maxime Sermesant': 'Maxime Sermesant',
             'Head': 'Head',
@@ -208,7 +214,26 @@ const englishTranslations = {
             'Institution:': 'Institution:',
             'Location:': 'Location:',
             'Version:': 'Version:',
-            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'For any questions about the TWIN SCD STEMI study, please contact your ARC contact in charge of the study at Bordeaux University Hospital'
+            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'For any questions about the TWIN SCD STEMI study, please contact your ARC contact in charge of the study at Bordeaux University Hospital',
+            // Dashboard translations
+            'Welcome to Meditwin': 'Welcome to Meditwin',
+            'Your medical data management platform': 'Your medical data management platform',
+            'Hello': 'Hello',
+            'My Data': 'My Data',
+            'Access and manage your personal medical data and research files': 'Access and manage your personal medical data and research files',
+            'Go to My Data': 'Go to My Data',
+            'Browse and explore shared medical data collections': 'Browse and explore shared medical data collections',
+            'View Collections': 'View Collections',
+            'Collaboration': 'Collaboration',
+            'Work with teams and share data securely': 'Work with teams and share data securely',
+            'Manage Groups': 'Manage Groups',
+            'Manage your account preferences and security settings': 'Manage your account preferences and security settings',
+            'Quick Stats': 'Quick Stats',
+            'Files Uploaded': 'Files Uploaded',
+            'Groups Joined': 'Groups Joined',
+            'Quick Actions': 'Quick Actions',
+            'Browse Collections': 'Browse Collections',
+            'My Data Space': 'My Data Space'
 };
 
 // French translations
@@ -400,6 +425,12 @@ const frenchTranslations = {
             'About Us': 'À Propos de Nous',
             'Meditwin is developed by a team of medical professionals, data scientists, and software engineers dedicated to advancing healthcare through technology. We are committed to providing innovative solutions that improve patient outcomes and accelerate medical research.': 'Meditwin est développé par une équipe de professionnels de la santé, de scientifiques des données et d\'ingénieurs logiciels dédiés à l\'amélioration des soins de santé par la technologie. Nous nous engageons à fournir des solutions innovantes qui améliorent les résultats des patients et accélèrent la recherche médicale.',
             'We manage the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.': 'Nous gérons la plateforme de gestion de données qui permet une collaboration transparente entre les équipes médicales et les institutions de recherche, fournissant une gestion sécurisée et efficace des données pour la recherche clinique et les soins aux patients.',
+            'We the Multimodal data science team manages the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.': 'Nous, l\'équipe de science des données multimodales, gérons la plateforme de gestion de données qui permet une collaboration transparente entre les équipes médicales et les institutions de recherche, fournissant une gestion sécurisée et efficace des données pour la recherche clinique et les soins aux patients.',
+            'Contacts': 'Contacts',
+            'Valérie BOILET': 'Valérie BOILET',
+            'Cheffe de projet': 'Cheffe de projet',
+            'Fabrice BLARD': 'Fabrice BLARD',
+            'ARC coordonnateur': 'ARC coordonnateur',
             'Our Team': 'Notre Équipe',
             'Maxime Sermesant': 'Maxime Sermesant',
             'Head': 'Chef',
@@ -417,7 +448,26 @@ const frenchTranslations = {
             'Institution:': 'Institution :',
             'Location:': 'Localisation :',
             'Version:': 'Version :',
-            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux'
+            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux',
+            // Dashboard translations
+            'Welcome to Meditwin': 'Bienvenue sur Meditwin',
+            'Your medical data management platform': 'Votre plateforme de gestion de données médicales',
+            'Hello': 'Bonjour',
+            'My Data': 'Mes Données',
+            'Access and manage your personal medical data and research files': 'Accédez et gérez vos données médicales personnelles et fichiers de recherche',
+            'Go to My Data': 'Aller à Mes Données',
+            'Browse and explore shared medical data collections': 'Parcourir et explorer les collections de données médicales partagées',
+            'View Collections': 'Voir les Collections',
+            'Collaboration': 'Collaboration',
+            'Work with teams and share data securely': 'Travailler avec des équipes et partager des données en toute sécurité',
+            'Manage Groups': 'Gérer les Groupes',
+            'Manage your account preferences and security settings': 'Gérer vos préférences de compte et paramètres de sécurité',
+            'Quick Stats': 'Statistiques Rapides',
+            'Files Uploaded': 'Fichiers Téléchargés',
+            'Groups Joined': 'Groupes Rejoints',
+            'Quick Actions': 'Actions Rapides',
+            'Browse Collections': 'Parcourir les Collections',
+            'My Data Space': 'Mon Espace de Données'
 };
 
 // Current language state - load from localStorage or default to French
