@@ -72,7 +72,10 @@ var FrontPageView = View.extend({
                         <div class="g-logo">
                             <div class="g-heart-logo">🫀</div>
                         </div>
-                        <div class="g-title">${translate('Meditwin brings together French science and technology excellence around virtual twins for the future of medical care')}</div>
+                        <div class="g-title">
+                            ${translate('TWIN SCD STEMI - CHUBX 2024/92')}<br/>
+                            ${translate("Elaboration d'un jumeau numérique pour la prédiction de mort subite rythmique après un infarctus du myocarde")}
+                        </div>
                     </div>
                     <div class="g-auth">
                         <button class="g-link g-login-link">${translate('Login')}</button>
@@ -85,14 +88,11 @@ var FrontPageView = View.extend({
                 </div>
                 
                 <div class="g-landing-hero">
-                    <div class="g-hero-title">${translate('MEDITWIN Platform')}</div>
-                    <div class="g-hero-subtitle">${translate('Building the future of personalized medicine through digital twins')}</div>
+                    <div class="g-hero-title">${translate('Plateforme TWIN SCD STEMI')}</div>
+                    <div class="g-hero-subtitle">${translate("Plateforme de dépôt de données complexes")}</div>
                     <div class="g-hero-cta">
                         <button class="g-cta-btn g-primary g-explore-platform-btn">
                             🔹 ${translate('Explore Platform')}
-                        </button>
-                        <button class="g-cta-btn g-secondary" onclick="window.open('https://www.inria.fr/fr/meditwin-sciences-technologies-sante-jumeau-virtuel-numerique', '_blank')">
-                            🔹 ${translate('Learn More')}
                         </button>
                     </div>
                 </div>
@@ -105,30 +105,24 @@ var FrontPageView = View.extend({
                         </div>
                         <div class="g-section-content">
                             <div class="g-project-description">
-                                <p class="g-project-paragraph">${translate('MEDITWIN is revolutionizing healthcare with personalized virtual twins of organs, metabolism, and tumors to improve diagnosis and treatment. Seven medical innovations in neurology, cardiology, and oncology will be developed and deployed via a sovereign industrial cloud platform. Led by Dassault Systèmes and top medical institutions, MEDITWIN sets a new global standard for virtual healthcare.')}</p>
-                                
-                                <div class="g-domains-section">
-                                    <h3 class="g-domains-title">${translate('Key Medical Domains')}</h3>
-                                    <div class="g-domains-grid">
-                                        <div class="g-domain">
-                                            <div class="g-domain-icon">🧠</div>
-                                            <div class="g-domain-title">${translate('Neurology')}</div>
-                                            <div class="g-domain-desc">${translate('Brain digital twins for epilepsy and stroke prediction')}</div>
-                                        </div>
-                                        <div class="g-domain">
-                                            <div class="g-domain-icon">❤️</div>
-                                            <div class="g-domain-title">${translate('Cardiology')}</div>
-                                            <div class="g-domain-desc">${translate('Heart modeling for rhythm and ischemia analysis')}</div>
-                                        </div>
-                                        <div class="g-domain">
-                                            <div class="g-domain-icon">🎯</div>
-                                            <div class="g-domain-title">${translate('Oncology')}</div>
-                                            <div class="g-domain-desc">${translate('Tumor simulation for targeted treatment planning')}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+                                <p class="g-project-paragraph">${translate("TWIN-SCD STEMI est une cohorte prospective multicentrique, non randomisée, visant à établir un modèle de prédiction multimodal permettant une meilleure identification des patients à risque de mort subite après un premier infarctus du myocarde. Sous la Promotion du CHU de Bordeaux, cette étude s'inscrit dans les activités de l'IHU Liryc au sein du Consortium MEDITWIN, avec un financement de BPI France.")}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="g-section">
+                        <div class="g-section-header g-centered">
+                            <div class="g-section-icon">🔬</div>
+                            <div class="g-section-title">${translate('Key Medical Domains')}</div>
+                        </div>
+                        <div class="g-section-content">
+                            <div class="g-project-description">
                                 <div class="g-features-grid">
+                                    <div class="g-feature">
+                                        <div class="g-feature-icon">❤️</div>
+                                        <div class="g-feature-title">${translate('Cardiology')}</div>
+                                        <div class="g-feature-desc">${translate('Heart modeling for rhythm and ischemia analysis')}</div>
+                                    </div>
                                     <div class="g-feature">
                                         <div class="g-feature-icon">🔬</div>
                                         <div class="g-feature-title">${translate('Advanced Research Tools')}</div>
@@ -154,11 +148,6 @@ var FrontPageView = View.extend({
                                         <div class="g-feature-title">${translate('Real-Time Analytics')}</div>
                                         <div class="g-feature-desc">${translate('Streamlined dashboards and live metrics for decision-making')}</div>
                                     </div>
-                                    <div class="g-feature">
-                                        <div class="g-feature-icon">🏭</div>
-                                        <div class="g-feature-title">${translate('Dassault Systèmes Integration')}</div>
-                                        <div class="g-feature-desc">${translate('Powered by industry-leading 3D modeling and simulation technology')}</div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -170,10 +159,58 @@ var FrontPageView = View.extend({
                             <div class="g-section-title">${translate('Consortium & Partners')}</div>
                         </div>
                         <div class="g-section-content">
-                            <div class="g-partners-image-container">
-                                <img src="/static/built/meditwin_partners.png" 
-                                     alt="MEDITWIN Consortium Partners" 
-                                     class="g-partners-banner-image" />
+                            <div class="g-partners-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%;">
+                                <div class="g-partner-card">
+                                    <div class="g-partner-logo-container">
+                                        <img src="/static/built/img/chu_bordeaux_logo.png" 
+                                             alt="CHU de Bordeaux" 
+                                             class="g-partner-logo" />
+                                    </div>
+                                    <div class="g-partner-footer">
+                                        <span class="g-project-link" onclick="window.open('https://www.chu-bordeaux.fr', '_blank')">
+                                            ${translate('Learn More')} →
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="g-partner-card">
+                                    <div class="g-partner-logo-container">
+                                        <img src="/static/built/img/ihu_liryc_logo.png" 
+                                             alt="IHU Liryc" 
+                                             class="g-partner-logo" />
+                                    </div>
+                                    <div class="g-partner-footer">
+                                        <span class="g-project-link" onclick="window.open('https://www.ihu-liryc.fr/', '_blank')">
+                                            ${translate('Learn More')} →
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="g-partner-card">
+                                    <div class="g-partner-logo-container">
+                                        <img src="/static/built/img/inria_logo.png" 
+                                             alt="INRIA" 
+                                             class="g-partner-logo" />
+                                    </div>
+                                    <div class="g-partner-footer">
+                                        <span class="g-project-link" onclick="window.open('https://www.inria.fr/fr/epione', '_blank')">
+                                            ${translate('Learn More')} →
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="g-partner-card">
+                                    <div class="g-partner-logo-container">
+                                        <img src="/static/built/img/meditwin_logo.png" 
+                                             alt="Meditwin" 
+                                             class="g-partner-logo" />
+                                    </div>
+                                    <div class="g-partner-footer">
+                                        <span class="g-project-link" onclick="window.open('https://www.3ds.com/fr/science/meditwin', '_blank')">
+                                            ${translate('Learn More')} →
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -233,17 +270,28 @@ var FrontPageView = View.extend({
                         </div>
                         <div class="g-section-content">
                             <div class="g-company-info">
-                                <p>${translate('MEDITWIN is developed by a team of medical professionals, data scientists, and software engineers dedicated to advancing healthcare through technology. We are committed to providing innovative solutions that improve patient outcomes and accelerate medical research.')}</p>
-                                
                                 <p>${translate('We manage the data management platform that enables seamless collaboration between medical teams and research institutions, providing secure and efficient data handling for clinical research and patient care.')}</p>
                                 
                                 <div class="g-team-section">
                                     <h3 class="g-team-title">${translate('Our Team')}</h3>
                                     <div class="g-team-grid">
-                                        <div class="g-team-member" onclick="window.open('https://team.inria.fr/epione/en/team/maxime-sermesant/', '_blank')">
+                                        <div class="g-team-member g-team-member-with-tooltip" onclick="window.open('https://team.inria.fr/epione/en/team/maxime-sermesant/', '_blank')">
+                                            <div class="g-team-member-tooltip">
+                                                <div class="g-tooltip-content">
+                                                    <div class="g-tooltip-title">${translate('Maxime Sermesant')}</div>
+                                                    <div class="g-tooltip-titles">
+                                                        <div>${translate('Director de recherche')}</div>
+                                                        <div>${translate('Head of Multimodal Data Science, IHU Liryc')}</div>
+                                                        <div>${translate('Group leader Computational Cardiology, Inria')}</div>
+                                                        <div>${translate('Université Côte d\'Azur')}</div>
+                                                        <div>${translate('Chair of AI & Biophysics, 3IA Côte d\'Azur')}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="g-team-member-info">
-                                                <div class="g-team-member-name">${translate('Maxime Sermesant')}</div>
-                                                <div class="g-team-member-role">${translate('Head')}</div>
+                                                <div class="g-team-member-name">
+                                                    ${translate('Maxime Sermesant')}
+                                                </div>
                                                 <div class="g-team-member-link">${translate('View Profile')} →</div>
                                             </div>
                                         </div>
@@ -273,11 +321,17 @@ var FrontPageView = View.extend({
                                         <strong>${translate('Contact:')}</strong> meditwin.contact@ihu-liryc.fr
                                     </div>
                                     <div class="g-contact-item">
-                                        <strong>${translate('Institution:')}</strong> IHU LIRYC - Bordeaux University Hospital
+                                        <strong>${translate('Institution:')}</strong> <a href="https://www.ihu-liryc.fr/" target="_blank" style="color: var(--medical-secondary); text-decoration: none;">IHU Liryc</a>
                                     </div>
                                     <div class="g-contact-item">
                                         <strong>${translate('Location:')}</strong> Bordeaux, France
                                     </div>
+                                    <div class="g-contact-item">
+                                        <strong>${translate('Version:')}</strong> V1.0 du 16/12/2025
+                                    </div>
+                                </div>
+                                <div class="g-contact-note">
+                                    <p>${translate("Pour toute question sur l'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l'étude au CHU de Bordeaux")}</p>
                                 </div>
                             </div>
                         </div>

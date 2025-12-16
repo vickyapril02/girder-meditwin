@@ -12,22 +12,22 @@ const englishTranslations = {
     'Passwords do not match, try again.': 'Passwords do not match, try again.',
     
     // Front page content
-    'Meditwin brings together French science and technology excellence around virtual twins for the future of medical care': 'Meditwin brings together French science and technology excellence around virtual twins for the future of medical care',
+    'TWIN SCD STEMI - CHUBX 2024/92': 'TWIN SCD STEMI - CHUBX 2024/92',
+    'Elaboration d\'un jumeau numérique pour la prédiction de mort subite rythmique après un infarctus du myocarde': 'Development of a digital twin for the prediction of sudden cardiac death after myocardial infarction',
+    'Plateforme TWIN SCD STEMI': 'TWIN SCD STEMI Platform',
+    'Plateforme de dépôt de données complexes': 'Complex Data Repository Platform',
     'MEDITWIN Platform': 'MEDITWIN Platform',
     'Building the future of personalized medicine through digital twins': 'Building the future of personalized medicine through digital twins',
     'Explore Platform': 'Explore Platform',
     'Learn More': 'Learn More',
     'Our Project': 'Our Project',
+    'TWIN-SCD STEMI est une cohorte prospective multicentrique, non randomisée, visant à établir un modèle de prédiction multimodal permettant une meilleure identification des patients à risque de mort subite après un premier infarctus du myocarde. Sous la Promotion du CHU de Bordeaux, cette étude s\'inscrit dans les activités de l\'IHU Liryc au sein du Consortium MEDITWIN, avec un financement de BPI France.': 'TWIN-SCD STEMI is a prospective, multicenter, non-randomized cohort study aimed at establishing a multimodal prediction model to better identify patients at risk of sudden cardiac death after a first myocardial infarction. Promoted by Bordeaux University Hospital, this study is part of IHU Liryc activities within the MEDITWIN Consortium, with funding from BPI France.',
     'MEDITWIN is revolutionizing healthcare with personalized virtual twins of organs, metabolism, and tumors to improve diagnosis and treatment. Seven medical innovations in neurology, cardiology, and oncology will be developed and deployed via a sovereign industrial cloud platform. Led by Dassault Systèmes and top medical institutions, MEDITWIN sets a new global standard for virtual healthcare.': 'MEDITWIN is revolutionizing healthcare with personalized virtual twins of organs, metabolism, and tumors to improve diagnosis and treatment. Seven medical innovations in neurology, cardiology, and oncology will be developed and deployed via a sovereign industrial cloud platform. Led by Dassault Systèmes and top medical institutions, MEDITWIN sets a new global standard for virtual healthcare.',
     
     // Key Domains
-    'Key Medical Domains': 'Key Medical Domains',
-    'Neurology': 'Neurology',
-    'Brain digital twins for epilepsy and stroke prediction': 'Brain digital twins for epilepsy and stroke prediction',
+    'Key Medical Domains': 'Key Competencies',
     'Cardiology': 'Cardiology',
     'Heart modeling for rhythm and ischemia analysis': 'Heart modeling for rhythm and ischemia analysis',
-    'Oncology': 'Oncology',
-    'Tumor simulation for targeted treatment planning': 'Tumor simulation for targeted treatment planning',
     
     // Features
     'Advanced Research Tools': 'Advanced Research Tools',
@@ -40,8 +40,6 @@ const englishTranslations = {
     'Create shared projects between hospitals and research labs': 'Create shared projects between hospitals and research labs',
     'Real-Time Analytics': 'Real-Time Analytics',
     'Streamlined dashboards and live metrics for decision-making': 'Streamlined dashboards and live metrics for decision-making',
-    'Dassault Systèmes Integration': 'Dassault Systèmes Integration',
-    'Powered by industry-leading 3D modeling and simulation technology': 'Powered by industry-leading 3D modeling and simulation technology',
     
     // Partners
     'Consortium & Partners': 'Consortium & Partners',
@@ -196,6 +194,11 @@ const englishTranslations = {
             'Our Team': 'Our Team',
             'Maxime Sermesant': 'Maxime Sermesant',
             'Head': 'Head',
+            'Director de recherche': 'Research Director',
+            'Head of Multimodal Data Science, IHU Liryc': 'Head of Multimodal Data Science, IHU Liryc',
+            'Group leader Computational Cardiology, Inria': 'Group leader Computational Cardiology, Inria',
+            'Université Côte d\'Azur': 'Université Côte d\'Azur',
+            'Chair of AI & Biophysics, 3IA Côte d\'Azur': 'Chair of AI & Biophysics, 3IA Côte d\'Azur',
             'Vicky': 'Vicky',
             'Buntheng': 'Buntheng',
             'Florent': 'Florent',
@@ -203,7 +206,9 @@ const englishTranslations = {
             'View Profile': 'View Profile',
             'Contact:': 'Contact:',
             'Institution:': 'Institution:',
-            'Location:': 'Location:'
+            'Location:': 'Location:',
+            'Version:': 'Version:',
+            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'For any questions about the TWIN SCD STEMI study, please contact your ARC contact in charge of the study at Bordeaux University Hospital'
 };
 
 // French translations
@@ -216,22 +221,22 @@ const frenchTranslations = {
     'Passwords do not match, try again.': 'Les mots de passe ne correspondent pas, réessayez.',
     
     // Front page content
-    'Meditwin brings together French science and technology excellence around virtual twins for the future of medical care': 'Meditwin rassemble l\'excellence française en science et technologie autour des jumeaux virtuels pour l\'avenir des soins médicaux',
+    'TWIN SCD STEMI - CHUBX 2024/92': 'TWIN SCD STEMI - CHUBX 2024/92',
+    'Elaboration d\'un jumeau numérique pour la prédiction de mort subite rythmique après un infarctus du myocarde': 'Elaboration d\'un jumeau numérique pour la prédiction de mort subite rythmique après un infarctus du myocarde',
+    'Plateforme TWIN SCD STEMI': 'Plateforme TWIN SCD STEMI',
+    'Plateforme de dépôt de données complexes': 'Plateforme de dépôt de données complexes',
     'MEDITWIN Platform': 'Plateforme MEDITWIN',
     'Building the future of personalized medicine through digital twins': 'Construire l\'avenir de la médecine personnalisée grâce aux jumeaux numériques',
     'Explore Platform': 'Explorer la Plateforme',
     'Learn More': 'En Savoir Plus',
     'Our Project': 'Notre Projet',
+    'TWIN-SCD STEMI est une cohorte prospective multicentrique, non randomisée, visant à établir un modèle de prédiction multimodal permettant une meilleure identification des patients à risque de mort subite après un premier infarctus du myocarde. Sous la Promotion du CHU de Bordeaux, cette étude s\'inscrit dans les activités de l\'IHU Liryc au sein du Consortium MEDITWIN, avec un financement de BPI France.': 'TWIN-SCD STEMI est une cohorte prospective multicentrique, non randomisée, visant à établir un modèle de prédiction multimodal permettant une meilleure identification des patients à risque de mort subite après un premier infarctus du myocarde. Sous la Promotion du CHU de Bordeaux, cette étude s\'inscrit dans les activités de l\'IHU Liryc au sein du Consortium MEDITWIN, avec un financement de BPI France.',
     'MEDITWIN is revolutionizing healthcare with personalized virtual twins of organs, metabolism, and tumors to improve diagnosis and treatment. Seven medical innovations in neurology, cardiology, and oncology will be developed and deployed via a sovereign industrial cloud platform. Led by Dassault Systèmes and top medical institutions, MEDITWIN sets a new global standard for virtual healthcare.': 'MEDITWIN révolutionne la santé grâce à des jumeaux virtuels personnalisés des organes, du métabolisme et des tumeurs pour mieux diagnostiquer et soigner. Sept innovations médicales en neurologie, cardiologie et oncologie seront développées et déployées via une plateforme cloud souveraine. Porté par Dassault Systèmes et des institutions médicales d\'excellence, MEDITWIN établit un nouveau standard mondial en santé virtuelle.',
     
     // Key Domains
-    'Key Medical Domains': 'Domaines Médicaux Clés',
-    'Neurology': 'Neurologie',
-    'Brain digital twins for epilepsy and stroke prediction': 'Jumeaux numériques du cerveau pour la prédiction d\'épilepsie et d\'AVC',
+    'Key Medical Domains': 'Compétences Clés',
     'Cardiology': 'Cardiologie',
     'Heart modeling for rhythm and ischemia analysis': 'Modélisation cardiaque pour l\'analyse du rythme et de l\'ischémie',
-    'Oncology': 'Oncologie',
-    'Tumor simulation for targeted treatment planning': 'Simulation tumorale pour la planification de traitements ciblés',
     
     // Features
     'Advanced Research Tools': 'Outils de Recherche Avancés',
@@ -244,8 +249,6 @@ const frenchTranslations = {
     'Create shared projects between hospitals and research labs': 'Créer des projets partagés entre hôpitaux et laboratoires de recherche',
     'Real-Time Analytics': 'Analyses en Temps Réel',
     'Streamlined dashboards and live metrics for decision-making': 'Tableaux de bord rationalisés et métriques en direct pour la prise de décision',
-    'Dassault Systèmes Integration': 'Intégration Dassault Systèmes',
-    'Powered by industry-leading 3D modeling and simulation technology': 'Alimenté par une technologie de modélisation et simulation 3D leader de l\'industrie',
     
     // Partners
     'Consortium & Partners': 'Consortium et Partenaires',
@@ -400,6 +403,11 @@ const frenchTranslations = {
             'Our Team': 'Notre Équipe',
             'Maxime Sermesant': 'Maxime Sermesant',
             'Head': 'Chef',
+            'Director de recherche': 'Directeur de recherche',
+            'Head of Multimodal Data Science, IHU Liryc': 'Responsable Science des Données Multimodales, IHU Liryc',
+            'Group leader Computational Cardiology, Inria': 'Chef de groupe Cardiologie Computationnelle, Inria',
+            'Université Côte d\'Azur': 'Université Côte d\'Azur',
+            'Chair of AI & Biophysics, 3IA Côte d\'Azur': 'Chaire IA & Biophysique, 3IA Côte d\'Azur',
             'Vicky': 'Vicky',
             'Buntheng': 'Buntheng',
             'Florent': 'Florent',
@@ -407,7 +415,9 @@ const frenchTranslations = {
             'View Profile': 'Voir le Profil',
             'Contact:': 'Contact :',
             'Institution:': 'Institution :',
-            'Location:': 'Localisation :'
+            'Location:': 'Localisation :',
+            'Version:': 'Version :',
+            'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux': 'Pour toute question sur l\'étude TWIN SCD STEMI, veuillez-vous adresser directement à votre contact ARC en charge de l\'étude au CHU de Bordeaux'
 };
 
 // Current language state - load from localStorage or default to French
