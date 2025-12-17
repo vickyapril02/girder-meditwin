@@ -5,7 +5,7 @@
     <title>${brandName | h} - REST API Documentation</title>
     <link rel="stylesheet" href="${staticPublicPath}/built/swagger/swagger-ui.css">
     <link rel="stylesheet" href="${staticPublicPath}/built/swagger/docs.css">
-    <link rel="icon" type="image/png" href="${staticPublicPath}/built/Girder_Favicon.png">
+    <link rel="icon" type="image/png" href="${staticPublicPath}/built/Meditwin_Favicon.png">
     <style type="text/css">
       .response_throbber {
         content: url("${staticPublicPath}/built/swagger/images/throbber.gif");

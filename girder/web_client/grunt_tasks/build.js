@@ -180,12 +180,28 @@ module.exports = function (grunt) {
                         allChunks: true
                     }),
                     new CopyWebpackPlugin([{
-                        from: 'static/img/Girder_Favicon.png',
+                        from: 'static/img/Meditwin_Favicon.png',
                         to: grunt.config.get('builtPath'),
                         toType: 'dir'
                     }, {
                         from: 'static/img/meditwin_partners.png',
                         to: grunt.config.get('builtPath'),
+                        toType: 'dir'
+                    }, {
+                        from: 'static/img/chu_bordeaux_logo.png',
+                        to: path.join(grunt.config.get('builtPath'), 'img'),
+                        toType: 'dir'
+                    }, {
+                        from: 'static/img/ihu_liryc_logo.png',
+                        to: path.join(grunt.config.get('builtPath'), 'img'),
+                        toType: 'dir'
+                    }, {
+                        from: 'static/img/inria_logo.png',
+                        to: path.join(grunt.config.get('builtPath'), 'img'),
+                        toType: 'dir'
+                    }, {
+                        from: 'static/img/meditwin_logo.png',
+                        to: path.join(grunt.config.get('builtPath'), 'img'),
                         toType: 'dir'
                     }])
                 ]
