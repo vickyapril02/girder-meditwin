@@ -1,0 +1,4 @@
+prune girder_meditwin/web_client
+include girder_meditwin/web_client/dist/girder-plugin-meditwin.umd.cjs
+include girder_meditwin/web_client/dist/style.css
+recursive-include girder_meditwin/web_client/dist/img *

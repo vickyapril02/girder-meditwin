@@ -1,0 +1,19 @@
+{
+  "name": "@girder/girder-plugin-meditwin",
+  "version": "0.1.0",
+  "description": "MediTwin customizations for Girder 5",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "@kitware/vtk.js": "^37.4.6",
+    "daikon": "^1.2.46"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "stylus": "^0.64.0",
+    "vite": "^8.0.0"
+  }
+}
