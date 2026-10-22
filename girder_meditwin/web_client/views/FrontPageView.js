@@ -125,9 +125,9 @@ FrontPageView.prototype.renderLoggedInDashboard = function () {
                                     <div class="g-contact-email"><a href="mailto:valerie.boilet@chu-bordeaux.fr">valerie.boilet@chu-bordeaux.fr</a></div>
                                 </div>
                                 <div class="g-contact-person">
-                                    <div class="g-contact-name">${translate('Fabrice BLARD')}</div>
+                                    <div class="g-contact-name">${translate('Anna KABALA-DUDON')}</div>
                                     <div class="g-contact-role">${translate('ARC coordonnateur')}</div>
-                                    <div class="g-contact-email"><a href="mailto:fabrice.blard@chu-bordeaux.fr">fabrice.blard@chu-bordeaux.fr</a></div>
+                                    <div class="g-contact-email"><a href="mailto:anna.kabala@chu-bordeaux.fr">anna.kabala@chu-bordeaux.fr</a></div>
                                 </div>
                             </div>
                         </div>
@@ -423,7 +423,7 @@ wrap(FrontPageView, 'render', function () {
                                     <strong>${translate('Location:')}</strong> Bordeaux, France
                                 </div>
                                 <div class="g-contact-item">
-                                    <strong>${translate('Version:')}</strong> V1.0 du 16/12/2025
+                                    <strong>${translate('Version:')}</strong> V2.0 du 22/10/2026
                                 </div>
                             </div>
                         </div>

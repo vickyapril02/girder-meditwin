@@ -187,7 +187,7 @@ var __create = Object.create, __defProp$1 = Object.defineProperty, __getOwnPropD
 	Contacts: "Contacts",
 	"Valérie BOILET": "Valérie BOILET",
 	"Cheffe de projet": "Project Manager",
-	"Fabrice BLARD": "Fabrice BLARD",
+	"Anna KABALA-DUDON": "Anna KABALA-DUDON",
 	"ARC coordonnateur": "ARC Coordinator",
 	"Our Team": "Our Team",
 	"Maxime Sermesant": "Maxime Sermesant",
@@ -394,7 +394,7 @@ var __create = Object.create, __defProp$1 = Object.defineProperty, __getOwnPropD
 	Contacts: "Contacts",
 	"Valérie BOILET": "Valérie BOILET",
 	"Cheffe de projet": "Cheffe de projet",
-	"Fabrice BLARD": "Fabrice BLARD",
+	"Anna KABALA-DUDON": "Anna KABALA-DUDON",
 	"ARC coordonnateur": "ARC coordonnateur",
 	"Our Team": "Notre Équipe",
 	"Maxime Sermesant": "Maxime Sermesant",
@@ -569,9 +569,9 @@ Object.assign(FrontPageView.prototype.events, {
                                     <div class="g-contact-email"><a href="mailto:valerie.boilet@chu-bordeaux.fr">valerie.boilet@chu-bordeaux.fr</a></div>
                                 </div>
                                 <div class="g-contact-person">
-                                    <div class="g-contact-name">${translate$1("Fabrice BLARD")}</div>
+                                    <div class="g-contact-name">${translate$1("Anna KABALA-DUDON")}</div>
                                     <div class="g-contact-role">${translate$1("ARC coordonnateur")}</div>
-                                    <div class="g-contact-email"><a href="mailto:fabrice.blard@chu-bordeaux.fr">fabrice.blard@chu-bordeaux.fr</a></div>
+                                    <div class="g-contact-email"><a href="mailto:anna.kabala@chu-bordeaux.fr">anna.kabala@chu-bordeaux.fr</a></div>
                                 </div>
                             </div>
                         </div>
@@ -834,7 +834,7 @@ Object.assign(FrontPageView.prototype.events, {
                                     <strong>${translate$1("Location:")}</strong> Bordeaux, France
                                 </div>
                                 <div class="g-contact-item">
-                                    <strong>${translate$1("Version:")}</strong> V1.0 du 16/12/2025
+                                    <strong>${translate$1("Version:")}</strong> V2.0 du 22/10/2026
                                 </div>
                             </div>
                         </div>
@@ -846,22 +846,22 @@ Object.assign(FrontPageView.prototype.events, {
 }), wrap$5(FrontPageView, "destroy", function(e) {
 	this.languageChangeHandler && window.removeEventListener("languageChanged", this.languageChangeHandler), this.loginHandler && (events$3.off("g:login", this.loginHandler), events$3.off("g:logout", this.loginHandler)), document.body.classList.remove("g-landing-page-active"), e.call(this);
 });
-// views/HeaderView.js
-var HeaderView = girder.views.layout.HeaderView, { wrap: wrap$4 } = girder.utilities.PluginUtils;
-wrap$4(HeaderView, "initialize", function(e, t) {
-	t ||= {}, t.brandName = t.brandName || "MediTwin", t.bannerColor = t.bannerColor || "#4CAF50", e.call(this, t);
-});
 // views/App.js
-var App = girder.views.App, events$2 = girder.events, router = girder.router, eventStream = girder.utilities.eventStream, { getCurrentUser: getCurrentUser$1 } = girder.auth, { wrap: wrap$3 } = girder.utilities.PluginUtils, PAGE_TITLE = "Twin scd STEMI", FAVICON_URL = "/plugin_static/meditwin/img/Meditwin_Favicon.png";
+var App = girder.views.App, events$2 = girder.events, router = girder.router, eventStream = girder.utilities.eventStream, { getCurrentUser: getCurrentUser$1 } = girder.auth, { wrap: wrap$4 } = girder.utilities.PluginUtils, BRAND_NAME = "Twin scd STEMI", BANNER_COLOR = "#d71919", FAVICON_URL = "/plugin_static/meditwin/img/Meditwin_Favicon.png";
 function applyPageBranding() {
-	document.title = PAGE_TITLE, document.querySelectorAll("link[rel~=\"icon\"]").forEach((e) => e.remove());
+	document.title = BRAND_NAME, document.querySelectorAll("link[rel~=\"icon\"]").forEach((e) => e.remove());
 	let e = document.createElement("link");
 	e.rel = "icon", e.type = "image/png", e.href = FAVICON_URL, document.head.appendChild(e);
 }
-events$2.on("g:appload.after", applyPageBranding), wrap$3(App, "initialize", function(e, t) {
-	t ||= {}, t.brandName = t.brandName || "MediTwin", t.bannerColor = t.bannerColor || "#4CAF50", e.call(this, t);
-}), wrap$3(App, "login", function() {
+events$2.on("g:appload.after", applyPageBranding), wrap$4(App, "initialize", function(e, t) {
+	t ||= {}, t.brandName = BRAND_NAME, t.bannerColor = BANNER_COLOR, e.call(this, t);
+}), wrap$4(App, "login", function() {
 	getCurrentUser$1() ? (eventStream.open(), window.location.reload()) : router.navigate("/", { trigger: !0 });
+});
+// views/HeaderView.js
+var HeaderView = girder.views.layout.HeaderView, { wrap: wrap$3 } = girder.utilities.PluginUtils;
+wrap$3(HeaderView, "initialize", function(e, t) {
+	t ||= {}, t.brandName = BRAND_NAME, t.bannerColor = BANNER_COLOR, e.call(this, t);
 });
 // __vite-browser-external
 var require___vite_browser_external = /* @__PURE__ */ __commonJSMin(((e, t) => {

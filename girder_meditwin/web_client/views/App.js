@@ -5,11 +5,12 @@ const eventStream = girder.utilities.eventStream;
 const { getCurrentUser } = girder.auth;
 const { wrap } = girder.utilities.PluginUtils;
 
-const PAGE_TITLE = 'Twin scd STEMI';
+export const BRAND_NAME = 'Twin scd STEMI';
+export const BANNER_COLOR = '#d71919';
 const FAVICON_URL = '/plugin_static/meditwin/img/Meditwin_Favicon.png';
 
 function applyPageBranding() {
-    document.title = PAGE_TITLE;
+    document.title = BRAND_NAME;
     document.querySelectorAll('link[rel~="icon"]').forEach((link) => link.remove());
     const icon = document.createElement('link');
     icon.rel = 'icon';
@@ -21,10 +22,11 @@ function applyPageBranding() {
 // Girder 5 sets document.title to the brand name right after the app renders.
 events.on('g:appload.after', applyPageBranding);
 
+// Force the branding (Girder 5 admin UI no longer edits these in the browser).
 wrap(App, 'initialize', function (initialize, settings) {
     settings = settings || {};
-    settings.brandName = settings.brandName || 'MediTwin';
-    settings.bannerColor = settings.bannerColor || '#4CAF50';
+    settings.brandName = BRAND_NAME;
+    settings.bannerColor = BANNER_COLOR;
     initialize.call(this, settings);
 });
 
