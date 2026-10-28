@@ -6,7 +6,7 @@ const { getCurrentUser } = girder.auth;
 const { wrap } = girder.utilities.PluginUtils;
 
 export const BRAND_NAME = 'Twin scd STEMI';
-export const BANNER_COLOR = '#d71919';
+export const BANNER_COLOR = '#db0a0a';
 const FAVICON_URL = '/plugin_static/meditwin/img/Meditwin_Favicon.png';
 
 function applyPageBranding() {

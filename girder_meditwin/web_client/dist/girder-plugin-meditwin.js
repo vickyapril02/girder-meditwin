@@ -847,7 +847,7 @@ Object.assign(FrontPageView.prototype.events, {
 	this.languageChangeHandler && window.removeEventListener("languageChanged", this.languageChangeHandler), this.loginHandler && (events$3.off("g:login", this.loginHandler), events$3.off("g:logout", this.loginHandler)), document.body.classList.remove("g-landing-page-active"), e.call(this);
 });
 // views/App.js
-var App = girder.views.App, events$2 = girder.events, router = girder.router, eventStream = girder.utilities.eventStream, { getCurrentUser: getCurrentUser$1 } = girder.auth, { wrap: wrap$4 } = girder.utilities.PluginUtils, BRAND_NAME = "Twin scd STEMI", BANNER_COLOR = "#d71919", FAVICON_URL = "/plugin_static/meditwin/img/Meditwin_Favicon.png";
+var App = girder.views.App, events$2 = girder.events, router = girder.router, eventStream = girder.utilities.eventStream, { getCurrentUser: getCurrentUser$1 } = girder.auth, { wrap: wrap$4 } = girder.utilities.PluginUtils, BRAND_NAME = "Twin scd STEMI", BANNER_COLOR = "#db0a0a", FAVICON_URL = "/plugin_static/meditwin/img/Meditwin_Favicon.png";
 function applyPageBranding() {
 	document.title = BRAND_NAME, document.querySelectorAll("link[rel~=\"icon\"]").forEach((e) => e.remove());
 	let e = document.createElement("link");
